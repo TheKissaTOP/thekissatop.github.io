@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang = "uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Formula Student ONPU</title>
+        <!--Css file-->
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header>
+            <!--Навігатор-->
+            <nav>
+                <ul class = "nav">
+                    <li><a href = "">Partners</a></li>
+                    <li><a href = "">Team</a></li>
+                    <li><a href = "">About</a></li>
+                </ul>
+                    <a class = "logo" href="index.html" aria-label="main page">
+                    <img src = "img/logo.png" alt="logo">
+                    </a>
+                <ul class = "nav">
+                    <li><a href = "">News</a></li>
+                    <li><a href = "">Blog</a></li>
+                    <li><a href = "">Contacts</a></li>
+                </ul>
+            </nav>
+            <!--Кнопка вибрати мову-->
+            <div class = "lang-switcher">
+                <select onchange="location = this.value;">
+                    <option value="?lang=ua">UA</option>
+                    <option value="?lang=en">EN</option>
+                </select>
+            </div>
+        </header>
+        <main class = "page-wrapper">
+            <!--Picture-->
+            <section class="hero">
+                <img src="img/car.png" alt="Car">
+            </section>
+
+            <!--Who we are-->
+
+            <section class="about-section" id="about">
+                <div class = "about">
+                <h2>Who we are?</h2>
+                <p>
+                    Formula Student ONPU – одеська інженерно-гоночна команда студентів, заснована у 2011 році на базі 
+                    Національного університету «Одеська політехніка». Ціль змагань – навчити студентів не тільки будувати, 
+                    але й рахувати витрати, знаходити інженерні рішення, працювати в команді, організовувати свій час та робочий процес колективу.
+                </p>
+                <p>
+                    Наша ціль - розробка та побудова гоночного автомобіля для участі у міжнародних інженерних змаганнях Formula Student.
+                    Наша місія - підвищення рівня інженерної освіти, розвиток та відродження автоспорту в Україні.
+                </p>
+                </div>
+                <div class = "about-photo">
+                    <img src = "img/photo1.png">
+                </div>
+            </section>
+
+            <!--Statistics-->
+
+            <section class = "statistics" id = "statistics">
+                <ul class = "stat">
+                    <li><div class = "stat-list"><strong>Members</strong></div></li>
+                    <li><div class = "stat-list"><strong>Yeasr</strong></div></li>
+                    <li><div class = "stat-list"><strong>Sponsors</strong></div></li>
+                    <li><div class = "stat-list"><strong>Followers</strong></div></li>
+                </ul>
+            </section>
+
+            <!--Actual car-->
+
+            <section class = "actual-car" id = "actual-car">
+                <h2>Our actual car</h2>
+                <div class = "car-container">
+                    <img src="img/car.png">
+                </div>
+            </section>
+
+            <!--Last news-->
+
+            <section class = "news" id = "news">
+                <div class = "news-grid">
+                    <div class = "news-card"></div>
+                    <div class = "news-card"></div>
+                    <div class = "news-card"></div>
+                </div>
+                <a href="#" class="more-link">More news →</a>
+            </section>
+
+            <!--Our sponsors-->
+
+            <section class = "sponsors" id = "partners">
+                <h2>Our sponsors</h2>
+                <div class = "sponsors-grid">
+                </div>
+            </section>
+        </main>
+
+        <!--footer-->
+
+        <footer class = "site-footer" id = "info">
+            <div class = "footer-container">
+                <div class = "footer-info">
+                    <div class = "footer-column">
+                        <strong>Social media</strong>
+                        <ul clas = "social-links">
+                            <li><a href="https://www.tiktok.com/@fsonpu">TikTok</a></li>
+                            <li><a href="https://www.instagram.com/fsonpu/?locale=ru">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Youtube</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
